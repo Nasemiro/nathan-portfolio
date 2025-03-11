@@ -1,7 +1,7 @@
 {
   "name": "nathan-portfolio",
   "version": "1.0.0",
-  "homepage": "https://Nasemiro.github.io/nathan-portfolio",
+  "homepage": "https://nasemiro.github.io/nathan-portfolio",
   "description": "My portfolio website built with React",
   "main": "index.js",
   "scripts": {
