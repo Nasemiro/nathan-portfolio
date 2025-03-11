@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.js": "/nathan-portfolio/static/js/main.31d6cfe0.js",
-    "index.html": "/nathan-portfolio/index.html"
+    "main.css": "/nathan-portfolio/static/css/main.4f922e5b.css",
+    "main.js": "/nathan-portfolio/static/js/main.30a71ec2.js",
+    "index.html": "/nathan-portfolio/index.html",
+    "main.4f922e5b.css.map": "/nathan-portfolio/static/css/main.4f922e5b.css.map",
+    "main.30a71ec2.js.map": "/nathan-portfolio/static/js/main.30a71ec2.js.map"
   },
   "entrypoints": [
-    "static/js/main.31d6cfe0.js"
+    "static/css/main.4f922e5b.css",
+    "static/js/main.30a71ec2.js"
   ]
 }
