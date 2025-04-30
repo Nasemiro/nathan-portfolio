@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // ✅ use Link instead of <a>
 import '../styles/Navbar.css';
 
 const Navbar = () => {
@@ -11,9 +12,9 @@ const Navbar = () => {
       </button>
       {isOpen && (
         <nav className="nav-links">
-          <a href="/">Home</a>
-          <a href="/about">About Me</a>
-          <a href="/contact">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       )}
     </div>
