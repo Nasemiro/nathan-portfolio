@@ -1,0 +1,47 @@
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1200px;
+  margin: 5rem auto;
+  padding: 2rem 3rem;
+  background-color: #112244;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  min-height: 350px;
+  flex-direction: row;
+  gap: 2rem
+}
+
+.text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.name-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+}
+
+.profession-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.profile-img-box {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #005288;
+  margin-left: 2rem;
+}

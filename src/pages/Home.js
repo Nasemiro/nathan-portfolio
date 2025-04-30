@@ -1,19 +1,20 @@
-import React from "react";
-import FloatingBox from "../components/FloatingBox";
-import "../styles/Home.css";
+import React from 'react';
+import '../styles/Home.css';
 
-function Home() {
+const Home = () => {
   return (
-    <div className="home-container">
-      <FloatingBox>
-        <img src="/image.jpg" alt="Profile" className="profile-pic" />
-        <p>About Me: Professional skills and experience...</p>
-      </FloatingBox>
-      <FloatingBox>
-        <p>Contact: Email | Phone | LinkedIn</p>
-      </FloatingBox>
+    <div className="floating-box home-content">
+      <div className="text-section">
+        <h1 className="name-title">Nathan January</h1>
+        <h2 className="profession-title">Junior Backend / Software Developer</h2>
+      </div>
+      <img
+        src={`${process.env.PUBLIC_URL}/profile.jpg`}
+        alt="Profile"
+        className="profile-img-box"
+      />
     </div>
   );
-}
+};
 
 export default Home;

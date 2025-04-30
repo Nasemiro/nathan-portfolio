@@ -1,16 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import React, { useState } from 'react';
+import '../styles/Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
-    <nav className="navbar">
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-      </ul>
-    </nav>
+    <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
+      <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
+        ☰
+      </button>
+      {isOpen && (
+        <nav className="nav-links">
+          <a href="/">Home</a>
+          <a href="/about">About Me</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      )}
+    </div>
   );
-}
+};
 
 export default Navbar;

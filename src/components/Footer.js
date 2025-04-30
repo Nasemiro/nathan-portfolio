@@ -3,7 +3,9 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">Published by Nathan January™</footer>
+    <footer className="footer">
+      Published by Nathan January™
+    </footer>
   );
 }
 

@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    padding-left: 220px; /* allows space for sidebar */
+  }
+  
+  .about-text {
+    color: white;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  .about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
